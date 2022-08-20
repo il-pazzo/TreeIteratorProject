@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BB9633B228B1814600BD6C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9633B128B1814600BD6C1E /* main.m */; };
+		BB9633BA28B181B000BD6C1E /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9633B928B181B000BD6C1E /* Node.m */; };
+		BB9633BD28B182D200BD6C1E /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9633BC28B182D200BD6C1E /* Tree.m */; };
+		BB9633C028B1973600BD6C1E /* TreeIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9633BF28B1973600BD6C1E /* TreeIterator.m */; };
+		BB9633C328B197C000BD6C1E /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9633C228B197C000BD6C1E /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		BB9633AE28B1814600BD6C1E /* TreeIteratorProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeIteratorProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9633B128B1814600BD6C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB9633B828B181B000BD6C1E /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		BB9633B928B181B000BD6C1E /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		BB9633BB28B182D200BD6C1E /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		BB9633BC28B182D200BD6C1E /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		BB9633BE28B1973600BD6C1E /* TreeIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeIterator.h; sourceTree = "<group>"; };
+		BB9633BF28B1973600BD6C1E /* TreeIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeIterator.m; sourceTree = "<group>"; };
+		BB9633C128B197C000BD6C1E /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		BB9633C228B197C000BD6C1E /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				BB9633B128B1814600BD6C1E /* main.m */,
+				BB9633B828B181B000BD6C1E /* Node.h */,
+				BB9633B928B181B000BD6C1E /* Node.m */,
+				BB9633BB28B182D200BD6C1E /* Tree.h */,
+				BB9633BC28B182D200BD6C1E /* Tree.m */,
+				BB9633C128B197C000BD6C1E /* Stack.h */,
+				BB9633C228B197C000BD6C1E /* Stack.m */,
+				BB9633BE28B1973600BD6C1E /* TreeIterator.h */,
+				BB9633BF28B1973600BD6C1E /* TreeIterator.m */,
 			);
 			path = TreeIteratorProject;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9633BD28B182D200BD6C1E /* Tree.m in Sources */,
 				BB9633B228B1814600BD6C1E /* main.m in Sources */,
+				BB9633BA28B181B000BD6C1E /* Node.m in Sources */,
+				BB9633C328B197C000BD6C1E /* Stack.m in Sources */,
+				BB9633C028B1973600BD6C1E /* TreeIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
